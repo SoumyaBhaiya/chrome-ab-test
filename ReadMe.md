@@ -1,1 +1,1 @@
-## Does adding a 'Summarize' button on top right of the Search Bar increase the percentage of eligible Chrome prifiles that sucessfully summarize a page at least once within 7 days? 
+## Does adding a 'Summarize' button on top right of the Search Bar increase the percentage of eligible Chrome profiles that sucessfully summarize a page at least once within 7 days? 
