@@ -1,3 +1,1 @@
-**Feature** A sparkle icon ('Summarize') located on the right edge of the Chrome Desktop address bar, active on long-form type text pages like articles, documentation or blogs.
-**User Experience** Clicking on button triggers an in-browser panel, showing an extracted summary via cloud assisted model without leaving active tab
-**Product Value Proposition** Reduces cognitive load during heavy research tasks, prevents tab abondonment, and strengthen google chrome's role as an active assistant. 
+## Does adding a 'Summarize' button on top right of the Search Bar increase the percentage of eligible Chrome prifiles that sucessfully summarize a page at least once within 7 days? 
