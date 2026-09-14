@@ -14,3 +14,17 @@ comprehension.
 
 Button clicks are a useful adoption metric, but they do not establish
 whether the feature actually helps users.
+
+
+This project includes:
+
+- A product hypothesis and experiment protocol.
+- A randomization unit.
+- Guardrail metrics.
+- Type I and Type II error assumptions.
+- Power analysis and sample-size estimation.
+- Synthetic data.
+- Statistical analysis and confidence intervals.
+- Repeated simulations for evaluating the decision rule.
+- Sensitivity analysis and reproducible figures.
+
