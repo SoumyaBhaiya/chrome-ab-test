@@ -1,0 +1,64 @@
+{
+  "data_status": "synthetic",
+  "config": {
+    "questions": 5,
+    "required_correct": 4,
+    "timely_seconds": 180,
+    "task_limit_seconds": 600,
+    "baseline_timely": 0.6,
+    "baseline_accuracy": 0.8,
+    "mde": 0.03,
+    "accuracy_margin": 0.02,
+    "alpha": 0.05,
+    "power": 0.9,
+    "round_to": 500,
+    "seed": 42,
+    "replications": 5000,
+    "eligible_profiles_per_day": 1000
+  },
+  "sample_plan": {
+    "primary_required_per_arm": 5527,
+    "accuracy_required_per_arm_approx": 6852,
+    "n_per_arm": 7000,
+    "total_profiles": 14000,
+    "estimated_enrollment_days": 14
+  },
+  "python": "3.14.3",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "scenarios": [
+    {
+      "name": "no_effect",
+      "treatment_timely_probability": 0.6,
+      "treatment_eventual_probability": 0.8
+    },
+    {
+      "name": "target_effect",
+      "treatment_timely_probability": 0.63,
+      "treatment_eventual_probability": 0.8
+    },
+    {
+      "name": "small_effect",
+      "treatment_timely_probability": 0.61,
+      "treatment_eventual_probability": 0.8
+    },
+    {
+      "name": "primary_harm",
+      "treatment_timely_probability": 0.57,
+      "treatment_eventual_probability": 0.8
+    },
+    {
+      "name": "accuracy_harm",
+      "treatment_timely_probability": 0.63,
+      "treatment_eventual_probability": 0.76
+    },
+    {
+      "name": "accuracy_boundary",
+      "treatment_timely_probability": 0.63,
+      "treatment_eventual_probability": 0.78
+    }
+  ]
+}
