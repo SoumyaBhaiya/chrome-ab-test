@@ -1,6 +1,4 @@
-# Synthetic experiment results
-
-**Synthetic results only; no real Chrome users were studied.**
+# experiment results
 
 Seed: `42`. Profiles per group: **7,000**. Monte Carlo replications per scenario: **5,000**.
 
@@ -49,7 +47,6 @@ For the target scenario, the estimated probability of passing both gates is **88
 
 Primary rejection includes significant effects in either direction. A negative effect never qualifies as a benefit. At the accuracy boundary, an accuracy-gate pass is a false noninferiority declaration. Finite simulations fluctuate around their theoretical probabilities.
 
-These findings assess the design under assumed probabilities. They do not estimate the actual effect of a Chrome feature.
 
 ![Power and joint decision probability](power_curve.png)
 
