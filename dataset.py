@@ -6,6 +6,7 @@ from dataclasses import asdict, dataclass
 from importlib.metadata import version
 from pathlib import Path
 
+
 import matplotlib
 
 matplotlib.use("Agg")
