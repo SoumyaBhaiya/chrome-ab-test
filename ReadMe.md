@@ -1,7 +1,4 @@
 > An Experiment that's evaluating whether adding a Summarize button to the Chrome side panel helps users understand articles within 3 minutes without degrading overall comprehension.
-
-This test evaluates real performance under time limits by pairing a superiority test for reading speed with a non-inferiority guardrail for answer accuracy.
-
 ---
 
 ## 1. Metric Definitions
