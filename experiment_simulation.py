@@ -1,8 +1,3 @@
-"""
-Chrome Feature Rollout Experiment: 'Summarize Button'
-File: experiment_simulation.py
-"""
-
 import numpy as np
 import pandas as pd
 from scipy import stats
